@@ -1,0 +1,16 @@
+metric,value
+rows,49918
+columns,106
+missing_values_total,0
+duplicate_rows,0
+duplicate_post_ids,0
+timestamp_missing_or_bad,0
+timestamp_min,2013-12-31 16:39:58
+timestamp_max,2017-04-19 00:15:44
+negative_links,3854
+positive_links,46064
+negative_rate,0.07720661885492207
+unique_source_subreddits,8605
+unique_target_subreddits,6571
+train_rows,39934
+test_rows,9984

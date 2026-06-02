@@ -1,0 +1,3 @@
+split_chronological,rows,negative_links,negative_rate
+test,9984,680,0.06810897435897435
+train,39934,3174,0.07948114388741423

@@ -1,0 +1,14 @@
+column,missing_values,unique_values,dtype
+POST_ID,0,49918,object
+TIMESTAMP,0,47599,datetime64[ns]
+SOURCE_SUBREDDIT,0,8605,object
+TARGET_SUBREDDIT,0,6571,object
+Raw_Title,0,48367,object
+Raw_Content,0,48861,object
+combined_text,0,49200,object
+LINK_SENTIMENT,0,2,int64
+is_negative_link,0,2,int64
+Content_Sentiment,0,3,int64
+Content_Score,0,48535,float64
+LIWC_Anger,0,5049,float64
+high_previous_anger_24h,0,2,bool

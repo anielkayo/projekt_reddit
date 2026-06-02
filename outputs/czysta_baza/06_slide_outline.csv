@@ -1,0 +1,11 @@
+slide,title,content
+1,Temat i pytanie badawcze,"Negatywne odniesienia miedzy subredditami: emocje, jezyk i siec."
+2,Dane,"49 918 rekordow, lata 2013-2017, przygotowany zbior bez brakow w kluczowych kolumnach."
+3,Hipotezy,"H1 eskalacja emocjonalna, H2 zlozonosc poznawcza, H3 model multimodalny."
+4,Metody,"Test Fishera, Mann-Whitney U, Cohen d, TF-IDF, Logistic Regression, Random Forest, Hugging Face baseline."
+5,Wynik H1,"negative_rate high anger=0.0726, other=0.0772, Fisher p=1.0000, odds ratio=0.935"
+6,Wynik H2,2/6 cech ma nizsza wartosc dla linkow negatywnych
+7,Wynik H3,Najlepszy model: TF-IDF word 1-2 + Logistic Regression balanced; negative_f1=0.344.
+8,Dlaczego accuracy nie wystarcza,"Klasa negatywna jest mniejszosciowa, wiec model moze miec wysoka accuracy i slaby recall/F1 dla klasy 1."
+9,Ograniczenia,"Male grupy historii 24h, roznica LINK_SENTIMENT vs Content_Sentiment, koszt modeli transformerowych."
+10,Wniosek koncowy,Najsilniejsze sa sygnaly tekstowe TF-IDF; hipotezy wymagaja ostroznej interpretacji i dalszych rozszerzen.

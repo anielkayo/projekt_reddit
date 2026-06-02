@@ -1,0 +1,6 @@
+group,available_columns
+numeric_features,94
+cognitive_complexity_features,6
+structural_features,7
+indicator_features,1
+text_features,3

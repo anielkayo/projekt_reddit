@@ -1,0 +1,7 @@
+hypothesis,approach,features,why,main_metric
+H1 eskalacja emocjonalna,Tabela kontyngencji + test Fishera,"high_previous_anger_24h, is_negative_link",Najprostszy test roznicy udzialow dla rzadkiego zdarzenia.,"odds ratio, p-value, roznica odsetkow"
+H1 eskalacja emocjonalna,Regresja logistyczna jako rozszerzenie,"prev_pair_mean_anger_24h, prev_pair_interactions_24h, cechy kontrolne",Pozwala kontrolowac historie pary i inne predyktory.,"wspolczynnik anger, ROC/F1 pomocniczo"
+H2 zlozonosc poznawcza,Porownanie grup + Mann-Whitney U,"Average word length, LIWC_Conj, ARI, LIWC_CogMech, Number of words",Cechy sa ciagle i moga miec rozklady nienormalne.,"roznica srednich, Cohen d, p-value"
+H3 model multimodalny,TF-IDF + Logistic Regression balanced,combined_text,Mocny klasyczny baseline tekstowy dla krotkich i srednich tekstow.,"negative_f1, macro_f1"
+H3 model multimodalny,Cechy numeryczne/LIWC/sieciowe + Random Forest,"numeric_features, structural_features",Sprawdza nieliniowe zaleznosci bez reprezentacji tekstowej TF-IDF.,"negative_f1, recall klasy negatywnej"
+H3 model multimodalny,Hugging Face baseline i opcjonalne embeddingi,"Content_Sentiment, Content_Score, opcjonalne sentence-transformers",Pozwala porownac gotowy sygnal transformerowy z cechami recznie wyliczonymi.,"negative_f1, macro_f1"
