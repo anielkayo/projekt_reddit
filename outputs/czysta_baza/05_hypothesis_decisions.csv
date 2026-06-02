@@ -1,0 +1,4 @@
+hypothesis,decision,main_evidence
+H1 eskalacja emocjonalna,niepotwierdzona,"negative_rate high anger=0.0726, other=0.0772, Fisher p=1.0000, odds ratio=0.935"
+H2 zlozonosc poznawcza,czesciowo potwierdzona,2/6 cech ma nizsza wartosc dla linkow negatywnych
+H3 model multimodalny,niepotwierdzona,"najlepszy model: TF-IDF word 1-2 + Logistic Regression balanced, negative_f1=0.3437"

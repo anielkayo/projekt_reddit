@@ -1,0 +1,26 @@
+feature,importance
+Negative sentiment calculated by VADER,0.04731043011910752
+LIWC_Negemo,0.04325904391729548
+LIWC_Anger,0.036969264203772376
+source_previous_links,0.031505038385223894
+Compound sentiment calculated by VADER,0.02811201591171358
+Fraction of uppercase characters,0.02549671213244438
+Fraction of alphabetical characters,0.024484505443350405
+common_neighbors_so_far,0.021184724294775865
+target_previous_links,0.01929747046386769
+Average word length,0.017952234599897646
+Fraction of white spaces,0.017891830290277206
+Fraction of digits,0.017663215301118706
+"Fraction of special characters, such as comma, exclamation mark, etc.",0.015962214351145164
+LIWC_Social,0.015705527564234753
+Automated readability index,0.014773612556314961
+LIWC_Affect,0.01433230903945512
+Average number of characters per sentence,0.01385482294400693
+LIWC_Relativ,0.013198547165988119
+LIWC_Work,0.012957395260791545
+Number of characters without counting white space,0.01279765414682894
+LIWC_Swear,0.012769464812703555
+Number of characters,0.012627552649180553
+LIWC_Ipron,0.012080938247653685
+LIWC_Bio,0.01195182868549993
+LIWC_Prep,0.01168732556640493
