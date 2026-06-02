@@ -1,5 +1,5 @@
 1. Hipoteza "Eskalacji Emocjonalnej"
-Treść: „Prawdopodobieństwo wystąpienia linku negatywnego między dwoma subredditami wzrasta, jeśli w poprzednich 24 godzinach wystąpiły między nimi interakcje o wysokim natężeniu słownictwa związanego z gniewem (anger)”.   + HuggingFace Transformers wykorzystujemy własne właściwości- samemu wykonać analizę- bardziej zaawansowane (rok 2017r) - nowsze modele i biblioteki pythona 
+Treść: „Prawdopodobieństwo wystąpienia linku negatywnego między dwoma subredditami wzrasta, jeśli w poprzednich 24 godzinach wystąpiły między ni     mi interakcje o wysokim natężeniu słownictwa związanego z gniewem (anger)”.   + HuggingFace Transformers wykorzystujemy własne właściwości- samemu wykonać analizę- bardziej zaawansowane (rok 2017r) - nowsze modele i biblioteki pythona 
 2. Hipoteza "Złożoności Poznawczej"
 Treść: „Teksty towarzyszące negatywnym linkom mają niższą złożoność językową (np. krótsze słowa, mniej spójników logicznych) niż teksty w linkach pozytywnych”.
 Uzasadnienie: Często agresja wiąże się z uproszczonym widzeniem świata. Możemy to zweryfikować, korelując sentyment z miarami takimi jak średnia długość słowa lub wskaźnik czytelności, które można wyliczyć z body properties.
